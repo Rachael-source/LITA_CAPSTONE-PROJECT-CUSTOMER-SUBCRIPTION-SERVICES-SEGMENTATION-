@@ -1,7 +1,7 @@
 ### LITA_CAPSTONE-PROJECT-CUSTOMER-SUBCRIPTION-SERVICES-SEGMENTATION-
 
 ### PROJECT OVERVIEW
-This project analysis customer data for a subscription service segments and trends. The analysis on this project will identify the key issues or opportunities and provide recommendations for insightful decision making. This project will unravel customer behaviour, track subscription types and identify key trends in callellation and renewals.
+This project analyzes customer data for a subscription service segments and trends. The analysis on this project will identify the key issues or opportunities and provide recommendations for insightful decision making. This project will unravel customer behaviour, track subscription types and identify key trends in callellation and renewals.
 
 ### BUSINESS PROBLEM/OPPURNITY
 This analysis will;
@@ -30,3 +30,17 @@ This involves the following steps
 - DATA ANALYSIS: The analysis was done using; Applied statistical method SUM, SUMIF, AVERAGE, MINIMUM, MAXIMUM, COUNT.
 - SQL Clauses such as; where, group by, order by and casewhen.
 - Power BI Tools such as DAX Functions, measure, calculated and conditional columns.
+
+### ANALYSIS REPORTS FROM EXCEL
+![image](https://github.com/user-attachments/assets/304bd474-8c00-4e97-88a2-f10726a64a2d)
+![image](https://github.com/user-attachments/assets/a0c2e88a-4913-430f-a31f-169b844499ac)
+![image](https://github.com/user-attachments/assets/f14a25b6-3997-4325-8602-c56a9fdc075a)
+![image](https://github.com/user-attachments/assets/5e25e4f3-cd50-42dc-8467-4acc1a734c0f)
+![image](https://github.com/user-attachments/assets/120a5275-47bc-4ba9-a73b-ba0f0ede0aae)
+![image](https://github.com/user-attachments/assets/19230426-15c1-4106-9126-c7f5a2cb44d7)
+
+### PIVOT TABLES
+![image](https://github.com/user-attachments/assets/00ba7d44-46bd-4631-8d69-ff95e39500d2)
+![image](https://github.com/user-attachments/assets/7d7f140e-d542-4bf3-b7ba-ac154a545332)
+![image](https://github.com/user-attachments/assets/405cc13d-b4c0-48d9-a99f-c396f929e1a6)
+![image](https://github.com/user-attachments/assets/91f5498f-13e4-4ab1-9958-4df8811fb2c9)
