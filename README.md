@@ -58,3 +58,85 @@ This involves the following steps
 ### REPORT FROM POWER BI
 ![LITA WORKPBI 11_6_2024 1_58_51 AM](https://github.com/user-attachments/assets/5bc949a8-7628-4e37-a029-f2cfb2747e42)
 
+### REPORT FROM SQL
+ ----------------------------------------TOTAL NUMBER OF CUSTOMER FROM EACH REGION--------------------
+
+ `Select`
+ Region,
+ `Count`(CustomerID) as TOTAL
+ from[dbo].[LITA Capstone Dataset Project2]
+ `group` `by`
+ Region
+ `Order` `by` 2 `desc`
+|Regions|Total|
+|-------|-----| 
+ |North|18750|
+|East|18750|
+|South|18750|
+|West|18750|
+
+### MOST POPULAR SUBSCRIPTION TYPE
+`Select` TOP 1 
+ SUBSCRIPTIONTYPE,
+ `Count`(CustomerID) as MOST_POPULAR
+ `from`[dbo].[LITA Capstone Dataset Project2]
+ `group` `by`
+SUBSCRIPTIONTYPE
+ `Order` `by` 2 `desc`
+|Subscription type|Most Popular|
+|-----------------|------------|
+|Basic|37500|
+
+### CUSTOMERS WHO CANCELED THEIR SUBSCRIPTION WITHIN 6 MONTHS
+`Select`
+ customerID, CustomerName
+ `from` [dbo].[LITA Capstone Dataset Project2]
+ `where` canceled = 1
+ `AND` `DATEDIFF`(`MONTH`,
+ SubscriptionStart, SubscriptionEnd)<=6;
+
+ ### AVERAGE SUBSCRIPTION DURATION
+ `select`
+ `avg`(duration)`as` AVERAGE_SUBSCRIPTION
+`from`  [dbo].[LITA Capstone Dataset Project2]
+
+### AVERAGE SUBSCRIPTION DURATION
+365
+
+-----------------------------TOTAL REVENUE---------------
+		`Select`
+		SUBSCRIPTIONTYPE,
+		`Sum`(revenue) as TOTAL_REVENUE
+		`From` [dbo].[LITA Capstone Dataset Project2]
+		`as` TOTAL_REVENUE
+		`group` `by` SUBSCRIPTIONTYPE
+
+|SUBSCRIPTION TYPE| TOTAL REVENUE|
+|-----------------|--------------|
+|Basic|74756784|
+|Premium|37580782|
+|Standard|37482120|
+
+
+`select` TOP 3 REGION,
+		`Count` (CustomerID) `AS` CANCELLED
+		FROM[dbo].[LITA Capstone Dataset Project2]
+		`WHERE` Cancellationdate is not null
+		`group` `by` REGION
+		`Order` `by` 1 `desc`
+
+|REGION|CANCELLED|
+|------|---------|
+|West|18750|
+|South|18750|
+|North|18750|
+
+### ACTIVE AND CANCELLED SUBSCRIPTION
+`select`
+		`sum`(`case` `when` cancellationdate is `null` `then` 1 `else` 0 `end`) `as` ACTIVE,
+		`sum` (`case` `when` `cancellationdate` is `not` `null` `then` 1 `else` 0 `end` ) `AS` CANCELLED
+		`FROM` [dbo].[LITA Capstone Dataset Project2]
+ 
+ |ACTIVE|CANCELED|
+ |------|--------|
+ |0|75000|
