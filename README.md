@@ -3,7 +3,7 @@
 ### PROJECT OVERVIEW
 This project analyzes customer data for a subscription service segments and trends. The analysis on this project will identify the key issues or opportunities and provide recommendations for insightful decision making. This project will unravel customer behaviour, track subscription types and identify key trends in callellation and renewals.
 
-### BUSINESS PROBLEM/OPPURNITY
+### BUSINESS PROBLEM/OPPORTUNITY
 This analysis will;
 - Review the total number of customers from each region.
 - Find the most popular subscription type
@@ -53,3 +53,8 @@ This involves the following steps
 ![image](https://github.com/user-attachments/assets/40ecb23d-3b99-42f8-8c47-27c938059a00)
 #### SUBSCRIPTION TYPES BY REVENUE		
 ![image](https://github.com/user-attachments/assets/d80a40ef-653a-47cd-9547-6525eb0d43ec)
+
+
+### REPORT FROM POWER BI
+![LITA WORKPBI 11_6_2024 1_58_51 AM](https://github.com/user-attachments/assets/5bc949a8-7628-4e37-a029-f2cfb2747e42)
+
