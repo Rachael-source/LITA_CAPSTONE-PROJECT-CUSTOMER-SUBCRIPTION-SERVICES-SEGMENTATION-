@@ -41,6 +41,15 @@ This involves the following steps
 
 ### PIVOT TABLES
 ![image](https://github.com/user-attachments/assets/00ba7d44-46bd-4631-8d69-ff95e39500d2)
-![image](https://github.com/user-attachments/assets/7d7f140e-d542-4bf3-b7ba-ac154a545332)
-![image](https://github.com/user-attachments/assets/405cc13d-b4c0-48d9-a99f-c396f929e1a6)
-![image](https://github.com/user-attachments/assets/91f5498f-13e4-4ab1-9958-4df8811fb2c9)
+![image](https://github.com/user-attachments/assets/950c5678-9bd1-45ef-a7f7-e6f73fc3a641)
+![image](https://github.com/user-attachments/assets/302ba24a-ff5c-484b-ac30-44e648e6a995)
+![image](https://github.com/user-attachments/assets/fb9eb9e2-2303-47f9-abee-74f0c037d86f)
+![image](https://github.com/user-attachments/assets/7b250878-ca52-4b0f-a122-749c59be1fe3)
+
+### CHARTS
+#### REGIONS BY REVENUE		
+![image](https://github.com/user-attachments/assets/2a5ccf81-4533-4df2-b784-730987d003da)
+#### REGIONS BY DURATION SUBSCRITION
+![image](https://github.com/user-attachments/assets/40ecb23d-3b99-42f8-8c47-27c938059a00)
+#### SUBSCRIPTION TYPES BY REVENUE		
+![image](https://github.com/user-attachments/assets/d80a40ef-653a-47cd-9547-6525eb0d43ec)
