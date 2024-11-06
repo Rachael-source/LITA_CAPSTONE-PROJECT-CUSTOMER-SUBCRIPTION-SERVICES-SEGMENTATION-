@@ -99,9 +99,9 @@ SUBSCRIPTIONTYPE
  `select`
  `avg`(duration)`as` AVERAGE_SUBSCRIPTION
 `from`  [dbo].[LITA Capstone Dataset Project2]
-
-### AVERAGE SUBSCRIPTION DURATION
-365
+|AVERAGE SUBSCRIPTION DURATION|
+|-----------------------------|
+|365|
 
 -----------------------------TOTAL REVENUE---------------
 		`Select`
